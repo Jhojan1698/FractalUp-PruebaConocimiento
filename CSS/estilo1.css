@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.contaniner{
+    min-width: 990px;
+    padding-bottom: 80px;
+    padding-top: 56px;
+    transition-duration: .15s;
+    transition-property: padding-top;
+}
+
+.head-menu{
+    height: 56px;
+    left: 350px;
+    min-width: 770px;
+    padding: 24px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.cuadro-bus{
+    border-radius: 100px;
+    width: 524px;
+    height: 36px;
+}
+
+.icon-user{
+    position: absolute;
+    left: 85.63%;
+    right: 91.23%;
+    top: 50.64%;
+    bottom: 22.73%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E86060;
+}
+
+.name-user{
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: 88%;
+    top: 50.64%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.menu{
+    background: #662323;
+    flex-direction: column;
+    left: 0;
+    position: fixed;
+    width: 320px;
+    height: 700px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagen{
+    position: absolute;
+    left: 30px;
+    top: 30px;  
+}
+
+.texto1{
+    position: absolute;
+    width: 111px;
+    height: 28px;
+    left: 40px;
+    top: 139px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.texto2{
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    left: 40px;
+    top: 171px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E86060;
+}
+
+.texto3{
+    position: absolute;
+    width: 56px;
+    height: 20px;
+    left: 40px;
+    top: 199px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto4{
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    left: 41px;
+    top: 227px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto5{
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 41px;
+    top: 255px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto6{
+    position: absolute;
+    width: 79px;
+    height: 20px;
+    left: 41px;
+    top: 283px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto7{
+    position: absolute;
+    width: 77px;
+    height: 28px;
+    left: 40px;
+    top: 333px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.texto8{
+    position: absolute;
+    width: 41px;
+    height: 20px;
+    left: 40px;
+    top: 365px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto9{
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 40px;
+    top: 393px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto10{
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 40px;
+    top: 421px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto11{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 40px;
+    top: 449px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.reproductor{
+    align-items: center;
+    position: fixed;
+    Width: 1370px;
+    Height: 100px;    
+    left: 0%;
+    right: 0%;
+    top: 84.55%;
+    bottom: 0%;
+    background-color:  #EB5757;
+}
+
+.album-music{
+    width: 100px;
+    height: 100px;
+}
+
+.player-music{
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    left: 40%;
+    top: 20%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btnatras{
+    bottom: 100%;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: white;
+    left: 0%;
+    top: 25%;
+}
+
+.btnpause{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 45%;
+    right: 33.33%;
+    top: 25%;
+    color: white;
+}
+
+.btnadelante{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 90%;
+    top: 25%;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+.sonido-modul{
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: 50%;
+    top: 50.64%;
+    font-size: 16px;
+    line-height: 20px;
+}
